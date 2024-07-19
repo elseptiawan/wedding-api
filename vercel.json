@@ -1,7 +1,8 @@
 {
+    "version": 2,
     "functions": {
         "api/*.php": {
-            "runtime": "vercel-php@0.6.2",
+            "runtime": "vercel-php@latest",
             "memory": 1024,
             "maxDuration": 10
         }
